@@ -1,0 +1,6 @@
+FROM postgres:16
+
+ENV POSTGRES_USER=admin
+ENV POSTGRES_PASSWORD=auction_pass
+ENV POSTGRES_DB=playerauction
+EXPOSE 5432 
